@@ -15,16 +15,75 @@
             font-optical-sizing: auto;
             font-style: normal;
         }
+
+        .bd {
+            border: 2px solid red;
+        }
     </style>
     <!-- font awsome link -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- tailwind script link -->
     <script src="https://cdn.tailwindcss.com"></script>
-</head>
+
+
+</head> 
 
 <body>
+    <!-- main section or conteiner -->
+    <main class=" bg-red-100 max-w-screen-xl mx-auto px-16 lg:px-28">
+        <!-- header section -->
+        <header class="md:flex pt-10 pb-20 ">
+            <!-- text-content -->
+            <div class="">
+                <h1 class="text-5xl md:text-7xl">It's good <br>
+                    tea time at The <br>
+                    Tea House</h1>
+                <br>
+                <p class="text-gray-500 ">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+                <br>
+                <button class="align-middle text-white bg-gradient-to-r from-orange-400 to-red-500 px-4 py-3 rounded-md">Explore More <i class="fa-solid fa-arrow-right -rotate-45 text-xl text-white"></i></button>
+            </div>
+            <!-- image content -->
+            <div class="relative">
+                <div class="">
+                <img src="/images/banner.png" alt="">
+                </div>
+                <!-- card design -->
+                <div class="absolute lg:top-80 flex items-center bg-white shadow-lg rounded-md px-2 py-2 md:py-10 lg:py-4">
+                    <div class="mx-2 text-amber-500"><i class="fa-solid fa-star"></i></div>
+                    <div>
+                        <h2 class="text-2xl text-red-400">5.00</h2>
+                        <p class="text-gray-500">Trust Pilot Ratings</p>
+                    </div>
+                </div>
+                
+            </div>
+        </header>
 
+    </main>
 </body>
 
 
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- echo "# tea-house" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Ferdous725890/tea-house.git
+git push -u origin main -->
